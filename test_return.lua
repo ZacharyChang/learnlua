@@ -18,3 +18,7 @@ x,y,z=foo2()
 print(x,y,z)	-- 	a	b	nil
 print(foo2())	--	a	b
 print((foo2()))	--	a	使用()强制返回一个值
+
+num={1,2,3,4,5}
+print(unpack(num))	--	1	2	3	4	5		[type:number]
+
